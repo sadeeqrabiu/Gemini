@@ -57,7 +57,7 @@ class _SectionState extends State<Section> {
                     color: Colors.black
                 ),
                 child: const Center(
-                  child: Text('Fruit Rap Game with Gemini', style: TextStyle(color: Colors.white),),
+                  child: Text('Simple Game with Gemini', style: TextStyle(color: Colors.white),),
                 ),
               ),
               onTap: () {
