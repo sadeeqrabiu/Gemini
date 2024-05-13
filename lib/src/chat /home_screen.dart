@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: const Text("Gemini Chat"),
+        title: const Text("Gemini"),
       ),
       body: _buildUI(),
     );
