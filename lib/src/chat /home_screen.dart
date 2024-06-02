@@ -43,6 +43,8 @@ class _HomeScreenState extends State<HomeScreen> {
       messages = [chatMessage, ...messages];
     });
 
+
+    //Gemini
     try {
       String question = chatMessage.text;
       gemini.streamGenerateContent(question).listen((event) {
